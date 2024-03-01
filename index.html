@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/ico/icone3.ico" type="image/x-icon">
+    <title>Sushi Haven - Japanese Food House</title>
+    <style>
+        @keyframes fundo {
+            0% {
+                filter: drop-shadow(0px 0px 5px black);
+            }
+            50% {
+                filter: drop-shadow(0px 0px 30px red);
+            }
+            100% {
+                filter: drop-shadow(0px 0px 5px black);
+            }   
+        }
+        body {
+            background-color: #732626;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            height: 97vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container > img {
+            max-width: 300px;
+            animation: fundo infinite 3s;
+        }
+        .container > a {
+            background-color: #BF2C2C;
+            padding: 10px;
+            margin-top: 30px;
+            text-decoration: none;
+            color: #F2E5D5;
+            font-weight: bolder;
+            border: 1px solid #D9756C;
+            border-radius: 5px;
+        }
+        .container > a:hover {
+            box-shadow: 0px 0px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="imagens/logo/logo-transp.png" alt="">
+        <a href="inicial.html" target="_self" rel="next">ENTRAR</a>
+    </div>
+    
+</body>
+</html>
